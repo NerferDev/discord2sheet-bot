@@ -20,7 +20,7 @@ async def on_message(message):
 
     # Command to insert data to excel
     if message.content.startswith('!s '):
-        SPREADSHEET_ID = '1rCbJRTM0SGWyX62PyxnS3MGSv4gytVPYLGSB6dOo1hE' # Add ID here
+        SPREADSHEET_ID = '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms' # Add ID here
         RANGE_NAME = 'A1'
         FIELDS = 2 # Amount of fields/cells
 
