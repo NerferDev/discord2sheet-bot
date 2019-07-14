@@ -20,7 +20,7 @@ async def on_message(message):
 
     # Command to insert data to excel
     if message.content.startswith('!s '):
-        SPREADSHEET_ID = '2QkhiqSFomDLYYYQUt3LO_IuUu72qEtXsLDc4Blcf5dq' # Add ID here
+        SPREADSHEET_ID = '1rCbJRTM0SGWyX62PyxnS3MGSv4gytVPYLGSB6dOo1hE' # Add ID here
         RANGE_NAME = 'A1'
         FIELDS = 2 # Amount of fields/cells
 
@@ -46,4 +46,4 @@ async def on_message(message):
                     await message.channel.send('This bot was made by hugonun(https://github.com/hugonun/).\nSource code: https://github.com/hugonun/discord2sheet-bot')
 
 
-client.run('') # Add bot token here
+client.run('NTQwMzIzOTMyNTkxNjIwMTE2.XSuy1w.EQPXfNVpKgDDIXl-FIWMxrnF1EI') # Add bot token here
